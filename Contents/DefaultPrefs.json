@@ -1,0 +1,32 @@
+ [
+    {
+        "id": "adult",
+        "type": "bool",
+        "label": "Allow Adult Plugins",
+        "default": "False"
+    },
+    {
+        "id": "debug",
+        "type": "bool",
+        "label": "Enable Debug Logging",
+        "default": "True"
+    },
+    {
+        "id": "auto-update",
+        "type": "bool",
+        "label": "Automatically update plugins in the background",
+        "default": "True"
+    },
+    {
+        "id": "delete_data",
+        "type": "bool",
+        "label": "Delete plugin data when uninstalling",
+        "default": "False"
+    },
+    {
+        "id": "clear_dict",
+        "type": "bool",
+        "label": "Reset PlexHaxx data. All plugins will need to be reinstalled for updates to work.",
+        "default": "False"
+    }
+]
